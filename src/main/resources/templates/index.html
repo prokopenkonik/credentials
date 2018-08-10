@@ -23,6 +23,7 @@
 </nav>
 <br/>
 <div class="container">
+    <button class="btn btn-success btn-lg btn-block addBtn">Add</button><br/>
     <table class="table table-hover table-bordered">
         <thead>
         <tr>
@@ -42,7 +43,6 @@
         </tr>
         </tbody>
     </table>
-    <button class="btn btn-success addBtn">Add</button>
     <div class="myForm">
         <form th:action="@{/property/save}" method="post">
             <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
